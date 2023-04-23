@@ -38,7 +38,6 @@
 .container>.row.fluid {
    max-width: 100%;
    width: 100%;
-   background-color: #00F;
    gap: 0;
    padding: 0;
 }

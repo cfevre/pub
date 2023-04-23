@@ -128,3 +128,34 @@ screenBreaks.map(screenBreak => {
     console.log(`}`)
     console.log(``)
 })
+// extraSmallScreenPx: 300,
+// smallScreenPx: 576,
+// mediumScreenPx: 768,
+// largeScreenPx: 992,
+// extraLargeScreenPx: 1200,
+
+/**
+ * 
+ @media screen and (min-width: 412px) and (max-width: 576px) {
+ body{border:solid 1px #00F;}
+ .row {
+     padding-left: calc((100% - var(--min-screen))/2);
+     padding-right: calc((100% - var(--min-screen))/2);
+ }
+ .col1 {
+     flex-basis: calc((var(--min-screen)/24) - var(--col-gap));
+     
+ }
+ 
+ .col2 {
+     flex-basis: calc((var(--min-screen)/12) - var(--col-gap));
+ }
+
+ .col-s-24 { flex-basis: calc(var(--min-screen) - var(--col-gap));  }
+ .col-s-12 { flex-basis: calc(var(--min-screen)/2 - var(--col-gap));  }
+ .col-s-24 { flex-basis: calc(var(--min-screen) - var(--col-gap));  }
+ .col-s-6 { flex-basis: calc(var(--min-screen)/4 - var(--col-gap));  }
+ .col-s-4 { flex-basis: calc(var(--min-screen)/6 - var(--col-gap));  }
+ .col-s-2 { flex-basis: calc(var(--min-screen)/12 - var(--col-gap));  }
+}
+ */
